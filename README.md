@@ -1,71 +1,25 @@
-# Getting Started with Create React App
+# ‘Hero Rider’ is a ride sharing startup. 
+Open [https://p-job-b7096.web.app/] to view it in your browser.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A driver who has his/her own or rented car can give rides to other people. They also provide driving lessons services. They want you to build
+some features given below with node js, react js and mongodb -
+1. There will be two type of sign up
+    a) Join as a rider . User need to add Full name, email, age, address, phone,
+    driving licence picture, area, nid picture, profile picture, car information
+    (name, model, name palate), password, confirm password , vehicle type (
+    car, bike). After registration he/she will be redirected to his profile page.
+    b) Join as a Driving Lesson Learner. User need to add Full name, email, age,
+    address, phone, profile picture, nid picture, password, confirm password,
+    vehicle type ( car, bike)
 
-## Available Scripts
+2. In the admin panel an admin can see the registered user list. He can search users by
+email, phone, and fullName. He can filter users by age range. (Example : 18-25, 26-30).
+Make this with proper backend pagination with 10 data per page.
 
-In the project directory, you can run:
+3. In the table, every row should have a checkbox to mark/check to do bulk action. An
+admin can block multiple users if he finds anything suspicious.
 
-### `npm start`
+4. If a user joins as a driving lesson learner he will find two packages. For car driving lessons
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# p-job-client
+it will be 200$ and for bike driving lessons it will be 100$ . User has to make payment via
+stripe.

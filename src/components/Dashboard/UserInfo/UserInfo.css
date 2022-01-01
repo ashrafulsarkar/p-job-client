@@ -1,0 +1,33 @@
+.userinfo label {
+    display: block;
+    width: 100%;
+}
+.userinfo input {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    height: 40px;
+    padding: 0 10px;
+}
+section.dashboard {
+    padding: 80px 0;
+}
+ul.deshboard-menu li {
+    list-style: none;
+}
+ul.deshboard-menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 0;
+    display: block;
+}
+button.logout-btn {
+    display: block;
+    width: 100%;
+}
+.profile-pic img {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}

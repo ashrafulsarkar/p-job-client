@@ -1,0 +1,56 @@
+#loginForm {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+.loginform {
+    padding: 35px;
+    box-shadow: 0px 0px 35px 1px rgb(55 41 67 / 10%);
+    border-radius: 8px;
+}
+.provider-login input {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 8px;
+    border: 0;
+    box-shadow: inset 0 0 10px 3px #c1c1c18c;
+}
+.provider-login h3 {
+    margin-bottom: 30px;
+}
+
+
+.error-massage p {
+    color: red;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.provider-login select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 16px;
+    border: none;
+    box-shadow: inset 0 0 10px 3px #c1c1c18c;
+    border-radius: 8px;
+    padding: 7px;
+}
+.provider-login label {
+    margin-bottom: 12px;
+    color: #585858;
+}
+.provider-login input[type="file"] {
+    box-shadow: 0 0 0 0;
+    height: inherit;
+    padding: 0;
+    border-radius: 0;
+}
+input#learner {
+    display: inline;
+    width: inherit;
+    margin-right: 8px;
+    box-shadow: 0 0 0 0;
+    height: 13px;
+}
