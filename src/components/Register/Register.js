@@ -41,9 +41,6 @@ const Register = () => {
         formData.append('licencePic', licencePic);
         formData.append('nidPic', nidPic);
         formData.append('profilePic', profilePic);
-
-
-        
         
 
         if (password !== repassword) {
